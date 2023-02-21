@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- *
  * main - print alphabet in lowercase
  *
  * Return: 0
  *
  */
+
+/* This program prints the alphabet in lowercase */
+
 int main(void)
 {
 	char l_letter;
