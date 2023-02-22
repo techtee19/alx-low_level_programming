@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef  MY_HEADER_FILE_H
+#define  MY_HEADER_FILE_H
 
  void print_alphabet(void);
  void print_alphabet_x10(void);
