@@ -9,8 +9,7 @@
 
 int _islower(int c)
 {
-
-	if (c >= 23 && c <= 96)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
