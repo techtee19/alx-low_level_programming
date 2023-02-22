@@ -7,6 +7,7 @@ int _islower(int c);
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
     int r;
