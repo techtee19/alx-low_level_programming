@@ -10,9 +10,8 @@
  */
 int main(void)
 {
-	int a = 1, b = 2, c, i;
-	int fibonacci_numbers[50] = {a, b};
-
+	int a = 0, b = 1, i;
+	int fibonacci_numbers[50];
 	fibonacci_numbers[0] = a;
 	fibonacci_numbers[1] = b;
 
