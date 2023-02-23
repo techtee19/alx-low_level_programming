@@ -18,10 +18,7 @@ int main(void)
 
 	for (i = 2; i < 50; i++)
 	{
-		c = a + b;
-		a = b;
-		b = c;
-		fibonacci_numbers[i] = b;
+		fibonacci_numbers[i] = fibonacci_numbers[i-1] + fibonacci_numbers[i-2];
 	}
 
 	for (i = 0; i < 49; i++)
