@@ -13,6 +13,9 @@ int main(void)
 	int a = 1, b = 2, c, i;
 	int fibonacci_numbers[50] = {a, b};
 
+	fibonacci_numbers[0] = a;
+	fibonacci_numbers[1] = b;
+
 	for (i = 2; i < 50; i++)
 	{
 		c = a + b;
